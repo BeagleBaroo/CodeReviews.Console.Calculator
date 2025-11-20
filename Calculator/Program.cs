@@ -1,15 +1,11 @@
-﻿namespace CodeReviews.Console.Calculator;
-
-using System;
-using System.Text.RegularExpressions;
-using CalculatorLibrary;
+﻿namespace CodeReviews.Calculator;
 
 class Program
 {
     static void Main(string[] args)
     {
         bool endApp = false;
-        Calculator calculator = new Calculator();
+        CalculatorLibrary.Calculator calculator = new CalculatorLibrary.Calculator();
         // Display title as the C# console calculator app.
         Console.WriteLine("Console Calculator in C#\r");
         Console.WriteLine("------------------------\n");

@@ -1,10 +1,5 @@
 ﻿namespace CalculatorLibrary;
 
-using System.Diagnostics;
-using System;
-using System.IO;
-using Newtonsoft.Json;
-
 public class Calculator
 {
     // CalculatorLibrary.cs
